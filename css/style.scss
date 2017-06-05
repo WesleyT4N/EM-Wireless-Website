@@ -1,4 +1,8 @@
 // Main CSS File for Site
+@font-face {
+    font-family: "Badaboom BB";
+    src: url("../fonts/BADABB__.TTF");
+}
 body,html {
   height: 100%;
   margin: 0;
@@ -13,4 +17,8 @@ body {
 
 .wrapper {
   flex: 1 0 auto;
+}
+
+h1 {
+  font-family: "Badaboom BB", sans-serif;
 }
