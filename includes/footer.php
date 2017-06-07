@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-4 footer-col">
           <h3 class="footer-header center-block"><i class="fa fa-question-circle" aria-hidden="true"></i> Have a Question?</h3>
-          <p class="footer-contact-message"> -->
+          <p class="footer-contact-message">
             Give Us a Call: <br />
             <strong class="footer-phone-number">(401) 426-0226</strong><br />
             <em>or</em><br />
