@@ -16,14 +16,13 @@
 
 <body>
   <nav class="navbar navbar-default navbar-toggleable-sm">
-  <!-- <div class="container-fluid"> -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <i class="fa fa-bars" aria-hidden="true"></i>
       </button>
       <a href="./home" class="navbar-brand">
-          <span class="white"><i class="fa fa-mobile" aria-hidden="true"></i> EM</span>
-          <span class="blue">Wireless</span>
+          <span class="large-logo-part"><i class="fa fa-mobile" aria-hidden="true"></i> EM</span>
+          <span class="small-logo-part">Wireless</span>
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -47,6 +46,5 @@
         </li>
       </ul>
     </div>
-  <!-- </div> -->
 </nav>
 <div class="wrapper">
