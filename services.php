@@ -1,7 +1,5 @@
 <?php include("./includes/header.php"); ?>
-<div class="container-fluid">
-  <div class="placeholder">
+<div class="wrapper">
 
-  </div>
 </div>
 <?php include("./includes/footer.php"); ?>

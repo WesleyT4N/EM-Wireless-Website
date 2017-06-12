@@ -1,4 +1,5 @@
 <?php include("./includes/header.php"); ?>
+<div class="wrapper">
 <div class="container-fluid image-slider-container">
     <div class="banner-container">
       <div class="center-block banner">
@@ -7,9 +8,23 @@
         <a class="header-link" href="./services">Our Services</a>
       </div>
     </div>
-    <div class="center-block image-slider">
-      <img class="center-block banner-image" src="https://unsplash.it/900/520?image=816&blur" />
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="https://unsplash.it/960/540?image=816&blur" alt="Los Angeles">
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/960/540?image=816&blur" alt="Los Angeles">
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/960/540?image=816&blur" alt="Los Angeles">
+        </div>
+      </div>
     </div>
   </div>
+</div>
 </div>
 <?php include("./includes/footer.php"); ?>
