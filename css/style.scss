@@ -26,7 +26,7 @@ body {
   flex: 1;
   transition: .25s ease;
 }
-.contact-wrapper {
+.contact-wrapper, .service-wrapper {
   min-height: 400px;
   flex: 1;
   transition: .25s ease;
@@ -159,7 +159,7 @@ body {
         }
         @media only screen and (max-width: 600px) {
           width: 100%;
-      }
+        }
         font-size: 1.25em;
         p {
           text-align: left;
@@ -184,7 +184,7 @@ body {
       }
       @media only screen and (max-width: 600px) {
         width: 100%;
-    }
+      }
       height: 200px;
       border: 4px solid white;
     }
@@ -295,7 +295,7 @@ body {
   padding-bottom: 8px;
   @media only screen and (max-width: 600px) {
     font-size: 2.5em;
-}
+  }
   font-size: 4em;
 }
 
@@ -340,7 +340,7 @@ body {
     @media only screen and (min-width: 400px) {
       display: inline-block;
       margin-right: 24px;
-  }
+    }
     a {
       text-decoration: none;
       color: white;
@@ -406,8 +406,8 @@ body {
           color: #d2d2d2;
           transform: scale(0.75) translateY(0%);
           transition: transform 0.2s ease;
-          }
         }
+      }
       .form-input {
         display: block;
         color: white;
@@ -495,4 +495,65 @@ body {
 
 .error-message {
   color: red;
+}
+
+.service-banner {
+  top: 5%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  .service-header {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+    font-size: 2.25em;
+  }
+  .service-row {
+    text-align: center;
+    padding: 0;
+    .service-col {
+      display: inline-block;
+      @media (min-width: 600px) {
+        width: 400px;
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+      @media (max-width: 599px) {
+        width: 100%;
+      }
+      float: none;
+      border: 1px solid white;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 48px;
+
+      .column-header-logo {
+        background-color: #ff7d1f;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -37px;
+        width: 75px;
+        height: 75px;
+        font-size: 3.6em;
+        border-radius: 50%;
+        border: 3px solid white;
+        #wrench {
+          margin-left: 8px;
+          margin-bottom: 16px;
+        }
+      }
+
+      .service-subheader {
+        margin-top: 16px;
+        width: 100%;
+        display: inline-block;
+        padding-bottom: 8px;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
 }

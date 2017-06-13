@@ -25,26 +25,26 @@ body {
   transition: .25s ease;
 }
 
-.contact-wrapper {
+.contact-wrapper, .service-wrapper {
   min-height: 400px;
   flex: 1;
   transition: .25s ease;
 }
 
 @media (max-width: 400px) {
-  .contact-wrapper {
+  .contact-wrapper, .service-wrapper {
     min-height: 710px;
   }
 }
 
 @media (min-width: 401px) and (max-width: 413px) {
-  .contact-wrapper {
+  .contact-wrapper, .service-wrapper {
     min-height: 700px;
   }
 }
 
 @media (min-width: 414px) and (max-width: 1600px) {
-  .contact-wrapper {
+  .contact-wrapper, .service-wrapper {
     min-height: 650px;
   }
 }
@@ -586,4 +586,75 @@ body {
 
 .error-message {
   color: red;
+}
+
+.service-banner {
+  top: 5%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.service-banner .service-header {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+  font-size: 2.25em;
+}
+
+.service-banner .service-row {
+  text-align: center;
+  padding: 0;
+}
+
+.service-banner .service-row .service-col {
+  display: inline-block;
+  float: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+@media (min-width: 600px) {
+  .service-banner .service-row .service-col {
+    width: 400px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 599px) {
+  .service-banner .service-row .service-col {
+    width: 100%;
+  }
+}
+
+.service-banner .service-row .service-col .column-header-logo {
+  background-color: #ff7d1f;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -37px;
+  width: 75px;
+  height: 75px;
+  font-size: 3.6em;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.service-banner .service-row .service-col .column-header-logo #wrench {
+  margin-left: 8px;
+  margin-bottom: 16px;
+}
+
+.service-banner .service-row .service-col .service-subheader {
+  margin-top: 16px;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
 }
