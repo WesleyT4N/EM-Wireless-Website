@@ -43,7 +43,7 @@
          <a href="https://goo.gl/maps/p8WSP7UfXvu" class="address nav-link">570 Smithfield Avenue<br />Pawtucket, Rhode Island</a>
         </li>
         <li class="nav-item hidden-md hidden-sm">
-          <p class="phone-number"> | (401) 426-0226</p>
+          <a id="phoneNum" href="tel:4014260226" class="nav-link">(401) 426-0226</a>
         </li>
       </ul>
     </div>
