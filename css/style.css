@@ -25,27 +25,63 @@ body {
   transition: .25s ease;
 }
 
-.contact-wrapper, .service-wrapper {
-  min-height: 400px;
+.contact-wrapper {
+  min-height: 650px;
   flex: 1;
   transition: .25s ease;
 }
 
 @media (max-width: 400px) {
-  .contact-wrapper, .service-wrapper {
-    min-height: 710px;
+  .contact-wrapper {
+    min-height: 716px;
   }
 }
 
-@media (min-width: 401px) and (max-width: 413px) {
-  .contact-wrapper, .service-wrapper {
+@media (min-width: 401px) and (max-width: 700px) {
+  .contact-wrapper {
     min-height: 700px;
   }
 }
 
-@media (min-width: 414px) and (max-width: 1600px) {
-  .contact-wrapper, .service-wrapper {
+@media (min-width: 701px) and (max-width: 1000px) {
+  .contact-wrapper {
     min-height: 650px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .contact-wrapper {
+    min-height: 650px;
+  }
+}
+
+.service-wrapper {
+  min-height: 750px;
+  flex: 1;
+  transition: .25s ease;
+}
+
+@media (max-width: 400px) {
+  .service-wrapper {
+    min-height: 1340px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 700px) {
+  .service-wrapper {
+    min-height: 1380px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1199px) {
+  .service-wrapper {
+    min-height: 1500px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .service-wrapper {
+    min-height: 729px;
   }
 }
 
@@ -589,7 +625,7 @@ body {
 }
 
 .service-banner {
-  top: 5%;
+  top: 2.5%;
   width: 100%;
   left: 0;
   text-align: center;
@@ -612,6 +648,7 @@ body {
 }
 
 .service-banner .service-row .service-col {
+  height: 572px;
   display: inline-block;
   float: none;
   border: 1px solid white;
@@ -620,17 +657,23 @@ body {
   margin-top: 48px;
 }
 
+@media (max-width: 400px) {
+  .service-banner .service-row .service-col {
+    height: 550px;
+  }
+}
+
 @media (min-width: 600px) {
   .service-banner .service-row .service-col {
     width: 400px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
 
 @media (max-width: 599px) {
   .service-banner .service-row .service-col {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -657,4 +700,93 @@ body {
   display: inline-block;
   padding-bottom: 8px;
   border-bottom: 1px solid white;
+}
+
+.service-banner .service-row .service-col .section-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.service-banner .service-row .service-col .section-subheader {
+  padding: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 1.5em;
+}
+
+.service-banner .service-row .service-col .description {
+  font-size: 1.2em;
+}
+
+@media (max-width: 400px) {
+  .service-banner .service-row .service-col .description {
+    font-size: 1em;
+  }
+}
+
+.service-banner .service-row .service-col #iphone {
+  margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+  .service-banner .service-row .service-col #iphone {
+    margin-top: 16px;
+    margin-left: -16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .service-banner .service-row .service-col #galaxy {
+    margin-left: -16px;
+  }
+}
+
+.service-banner .service-row .service-col .bottom-row {
+  padding-bottom: 24px;
+}
+
+.service-banner .service-row .service-col #dots {
+  height: 80px;
+  width: 80px;
+  margin-left: 8px;
+}
+
+@media (max-width: 400px) {
+  .service-banner .service-row .service-col #dots {
+    margin-left: -6px;
+  }
+}
+
+.service-banner .service-row .service-col #screwdriver {
+  margin-top: 36px;
+  margin-left: 8px;
+}
+
+@media (max-width: 400px) {
+  .service-banner .service-row .service-col #screwdriver {
+    margin-top: 24px;
+    margin-left: -8px;
+  }
+}
+
+.service-banner .service-row .service-col #gear {
+  margin-top: 54px;
+  margin-left: 12px;
+}
+
+@media (max-width: 400px) {
+  .service-banner .service-row .service-col #gear {
+    margin-left: 0px;
+  }
+}
+
+.service-banner .service-row .service-col .icon-col {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.service-banner .service-row .service-col .icon-col h1 {
+  font-size: 5em;
+  padding-bottom: 36px;
 }

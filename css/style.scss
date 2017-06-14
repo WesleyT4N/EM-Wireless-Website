@@ -26,18 +26,39 @@ body {
   flex: 1;
   transition: .25s ease;
 }
-.contact-wrapper, .service-wrapper {
-  min-height: 400px;
+.contact-wrapper {
+  min-height: 650px;
   flex: 1;
   transition: .25s ease;
   @media (max-width: 400px) {
-    min-height: 710px;
+    min-height: 716px;
   }
-  @media (min-width: 401px) and (max-width: 413px) {
+  @media (min-width: 401px) and (max-width: 700px) {
     min-height: 700px;
   }
-  @media (min-width: 414px) and (max-width: 1600px) {
+  @media (min-width: 701px) and (max-width: 1000px) {
     min-height: 650px;
+  }
+  @media (min-width: 1200px) and (max-width: 1600px) {
+    min-height: 650px;
+  }
+}
+
+.service-wrapper {
+  min-height: 750px;
+  flex: 1;
+  transition: .25s ease;
+  @media (max-width: 400px) {
+    min-height: 1340px;
+  }
+  @media (min-width: 401px) and (max-width: 700px) {
+    min-height: 1380px;
+  }
+  @media (min-width: 701px) and (max-width: 1199px) {
+    min-height: 1500px;
+  }
+  @media (min-width: 1200px) and (max-width: 1600px) {
+    min-height: 729px;
   }
 }
 
@@ -498,7 +519,7 @@ body {
 }
 
 .service-banner {
-  top: 5%;
+  top: 2.5%;
   width: 100%;
   left: 0;
   text-align: center;
@@ -516,14 +537,18 @@ body {
     text-align: center;
     padding: 0;
     .service-col {
+      height: 572px;
+      @media (max-width: 400px) {
+        height: 550px;
+      }
       display: inline-block;
       @media (min-width: 600px) {
         width: 400px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 12px;
+        margin-right: 12px;
       }
       @media (max-width: 599px) {
-        width: 100%;
+        width: 95%;
       }
       float: none;
       border: 1px solid white;
@@ -546,13 +571,75 @@ body {
           margin-bottom: 16px;
         }
       }
-
       .service-subheader {
         margin-top: 16px;
         width: 100%;
         display: inline-block;
         padding-bottom: 8px;
         border-bottom: 1px solid white;
+      }
+      .section-icon {
+        width: 100px;
+        height: 100px;
+      }
+      .section-subheader {
+        padding: 0;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 1.5em;
+      }
+      .description {
+        font-size: 1.2em;
+        @media (max-width: 400px) {
+          font-size: 1em;
+        }
+      }
+      #iphone {
+        margin-top: 20px;
+        @media (max-width: 400px) {
+          margin-top: 16px;
+          margin-left: -16px;
+        }
+      }
+      #galaxy {
+        @media (max-width: 400px) {
+          margin-left: -16px;
+        }
+      }
+      .bottom-row {
+        padding-bottom: 24px;
+      }
+      #dots {
+        height: 80px;
+        width: 80px;
+        margin-left: 8px;
+        @media (max-width: 400px) {
+          margin-left: -6px;
+        }
+      }
+      #screwdriver {
+        margin-top: 36px;
+        margin-left: 8px;
+        @media (max-width: 400px) {
+          margin-top: 24px;
+          margin-left: -8px;
+        }
+      }
+      #gear {
+        margin-top: 54px;
+        margin-left: 12px;
+        @media (max-width: 400px) {
+          margin-left: 0px;
+        }
+      }
+      .icon-col {
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        h1 {
+          font-size: 5em;
+          padding-bottom: 36px;
+        }
       }
     }
   }
