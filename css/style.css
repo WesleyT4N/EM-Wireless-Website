@@ -273,9 +273,46 @@ body {
   }
 }
 
+.footer .footer-divider {
+  border-color: #ff7d1f;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 66%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer .footer-divider {
+    width: 100%;
+  }
+}
+
+.footer .sitemap {
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.footer .sitemap h3 {
+  color: #ff7d1f;
+  display: inline-block;
+  margin: 0 0 0 0;
+}
+
+.footer .sitemap a {
+  text-decoration: none;
+  color: #ff7d1f;
+  font-size: 1.5em;
+  margin-left: 36px;
+  transition: .25s ease;
+}
+
+.footer .sitemap a:hover, .footer .sitemap a:active, .footer .sitemap a:focus {
+  color: #b86123;
+}
+
 .footer .footer-bottom {
   width: 100%;
-  margin-top: 16px;
+  margin-top: 8px;
   padding-top: 8px;
   padding-bottom: 1px;
   bottom: 0;
@@ -343,8 +380,7 @@ body {
   font-size: .95em;
   padding: 8px 16px 8px 16px;
   border-radius: 10px;
-  margin-top: 8px;
-  margin-bottom: 4px;
+  margin-top: 20px;
   background-color: #ff7d1f;
   color: white;
   transition: .25s ease;
@@ -355,6 +391,10 @@ body {
   .message-link {
     font-size: .75em;
   }
+}
+
+.top-message {
+  margin-top: 8px;
 }
 
 .banner-container, .contact-container {

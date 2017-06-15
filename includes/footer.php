@@ -1,4 +1,4 @@
-  </div>
+
   <footer class="footer">
     <div class="container-fluid">
       <div class="row footer-row">
@@ -14,20 +14,26 @@
             <p>Wed. <span class="pull-right">10:00AM - 7:00PM</span></p>
             <p>Thu. <span class="pull-right">10:00AM - 7:00PM</span></p>
             <p>Fri. <span class="pull-right">10:00AM - 7:00PM</span></p>
-            <p>Sat. <span class="pull-right">10:00AM - 5:00PM</span></p>
+            <p>Sat. <span class="pull-right">10:00AM - 7:00PM</span></p>
             <p>Sun. <span class="pull-right">CLOSED</span></p>
           </div>
         </div>
         <div class="col-sm-4 footer-col">
           <h3 class="footer-header center-block"><i class="fa fa-question-circle" aria-hidden="true"></i> Have a Question?</h3>
           <p class="footer-contact-message">
-            Give Us a Call: <br />
-            <a href="tel:4014260226" class="message-link"><strong class="footer-phone-number">
+            <a href="tel:4014260226" class="message-link top-message"><strong class="footer-phone-number">
 <i class="fa fa-phone-square" aria-hidden="true"></i> (401) 426-0226</strong></a><br />
-            <em>or</em><br />
-            <a class="message-link" href="./contact"><i class="fa fa-envelope" aria-hidden="true"></i> Send Us a Message</a>
+            <a class="message-link" href="./contact"><i class="fa fa-envelope" aria-hidden="true"></i> Send Us a Message</a><br />
+            <a href="https://www.facebook.com/emwirelessllc/" class="message-link"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
           </p>
          </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="row sitemap">
+        <h3 class="sitemap-header"><i class="fa fa-sitemap" aria-hidden="true"></i> Sitemap</h3>
+        <a class="sitemap-link" href="./home">Home</a>
+        <a class="sitemap-link" href="./services">Our Services</a>
+        <a class="sitemap-link" href="./contact">Contact Us</a>
       </div>
     </div>
     <div class="footer-bottom">
