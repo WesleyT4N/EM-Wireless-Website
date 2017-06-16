@@ -12,6 +12,15 @@
   <script src="./js/main.js"></script>
   <script src="https://use.fontawesome.com/104d9a8f78.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Raleway" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
   <?php require_once "./includes/functions.php"; ?>
 </head>
 
@@ -22,8 +31,8 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
       </button>
       <a href="./home" class="navbar-brand">
-          <span class="large-logo-part"><i class="fa fa-mobile" aria-hidden="true"></i> EM</span>
-          <span class="small-logo-part">Wireless</span>
+        <span class="large-logo-part"><i class="fa fa-mobile" aria-hidden="true"></i> EM</span>
+        <span class="small-logo-part">Wireless</span>
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -40,11 +49,11 @@
       </ul>
       <ul class="nav navbar-nav navbar-right hidden-xs">
         <li class="nav-item hidden-sm">
-         <a href="https://goo.gl/maps/p8WSP7UfXvu" class="address nav-link">570 Smithfield Avenue<br />Pawtucket, Rhode Island</a>
+          <a href="https://goo.gl/maps/p8WSP7UfXvu" class="address nav-link">570 Smithfield Avenue<br />Pawtucket, Rhode Island</a>
         </li>
         <li class="nav-item hidden-md hidden-sm">
           <a id="phoneNum" href="tel:4014260226" class="nav-link">(401) 426-0226</a>
         </li>
       </ul>
     </div>
-</nav>
+  </nav>

@@ -16,17 +16,27 @@ $nameErr = $subjErr = $msgErr = "";
       <hr class="contact-divider" />
       <form id="contactForm" class="center-block contact-form" action="" method="post">
         <h2 class="subheader contact-form-header"><i class="fa fa-envelope-o" aria-hidden="true"></i> Send Us a Message</h2>
-        <div class="form-input-group">
-          <label class="input-label" id="nameLabel">Name <span class="error-message" id="nameError"></span></label>
-          <input type="text" id="name" name="name" class="form-input name-input" autocomplete="off" value="<?php echo htmlspecialchars($name);?>" required/>
+        <div class="row first-row">
+          <div class="col-sm-6">
+            <div class="form-input-group split-group">
+              <label class="input-label" id="nameLabel">Name <span class="error-message" id="nameError"></span></label>
+              <input type="text" id="name" name="name" class="form-input name-input" autocomplete="off" required/>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-input-group split-group">
+              <label class="input-label" id="emailLabel">Email <span class="error-message" id="emailError"></span></label>
+              <input type="email" id="email" name="email" class="form-input email-input" autocomplete="off" required/>
+            </div>
+          </div>
         </div>
         <div class="form-input-group">
           <label class="input-label" id="subjectLabel">Subject <span class="error-message" id="subjectError"></span></label>
-          <input type="text" id="subject" name="subject" class="form-input subject-input" autocomplete="off" value="<?php echo htmlspecialchars($subj);?>" required/>
+          <input type="text" id="subject" name="subject" class="form-input subject-input" autocomplete="off" required/>
         </div>
         <div class="form-input-group">
           <label class="input-label" id="messageLabel">Message <span class="error-message" id="messsageError"></span></label>
-          <textarea name="message" class="form-input message-input" id="message" rows="1" required><?php echo htmlspecialchars($msg);?></textarea>
+          <textarea name="message" class="form-input message-input" id="message" rows="1" required></textarea>
         </div>
         <button id="submit" type="submit" value="submit" name="submit" class="btn form-submit-btn">Send</input>
       </form>

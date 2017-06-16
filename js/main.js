@@ -44,14 +44,12 @@ $(document).ready(function() {
             $('#submit').addClass('error-btn');
             $('#submit').html('<i class="fa fa-times" aria-hidden="true"></i> Error. Something went wrong');
           } else  {
-
             $('#submit').fadeOut(function(){
               $('#submit').addClass('sent-btn');
               $('#submit').prop('disabled', true);
               $('#submit').html('<i class="fa fa-check" aria-hidden="true"></i> Sent');
               $('#submit').fadeIn();
             });
-
           }
         },
         error: function(xhr, status, error) {
@@ -76,6 +74,17 @@ function validateContactForm() {
     valid = false;
   } else {
     $('#nameError').text("");
+  }
+
+  var email = $('#email').val();
+  if (email.length < 5) {
+    $('#emailError').text("Invalid Email");
+    valid = false;
+  } else if (!/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)) {
+    $('#emailError').text("Invalid Email");
+    valid = false;
+  } else {
+    $('#emailError').text("");
   }
 
   var subject = $('#subject').val();
