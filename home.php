@@ -8,19 +8,23 @@
         <a class="header-link" href="./services">Our Services</a>
       </div>
     </div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="https://unsplash.it/960/540?image=816&blur" alt="Los Angeles">
+          <img src="./img/camera_img/slider1.jpg" alt="Slider Image 1">
         </div>
 
         <div class="item">
-          <img src="https://unsplash.it/960/540?image=816&blur" alt="Los Angeles">
+          <img src="./img/camera_img/slider5.jpg" alt="Slider Image 5">
         </div>
 
         <div class="item">
-          <img src="https://unsplash.it/960/540?image=816&blur" alt="Los Angeles">
+          <img src="./img/camera_img/slider7.jpg" alt="Slider Image 7">
+        </div>
+
+        <div class="item">
+          <img src="./img/camera_img/slider9.jpg" alt="Slider Image 9">
         </div>
       </div>
     </div>

@@ -93,15 +93,19 @@ $nameErr = $subjErr = $msgErr = "";
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="https://unsplash.it/960/540?image=816&blur" alt="Placeholder Background">
+          <img src="./img/camera_img/slider2.jpg" alt="Slider Image 2">
         </div>
 
         <div class="item">
-          <img src="https://unsplash.it/960/540?image=816&blur" alt="Placeholder Background">
+          <img src="./img/camera_img/slider4.jpg" alt="Slider Image 4">
         </div>
 
         <div class="item">
-          <img src="https://unsplash.it/960/540?image=816&blur" alt="Placeholder Background">
+          <img src="./img/camera_img/slider6.jpg" alt="Slider Image 6">
+        </div>
+
+        <div class="item">
+          <img src="./img/camera_img/slider12.jpg" alt="Slider Image 12">
         </div>
       </div>
     </div>
