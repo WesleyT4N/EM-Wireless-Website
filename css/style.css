@@ -21,80 +21,87 @@ body {
 
 .wrapper {
   position: relative;
-  min-height: 400px;
+  top: 56px;
+  min-height: 500px;
   flex: 1;
   transition: .25s ease;
 }
 
 .contact-wrapper {
   position: relative;
-  min-height: 650px;
-  flex: 1;
-  transition: .25s ease;
-}
-
-@media (max-width: 400px) {
-  .contact-wrapper {
-    min-height: 770px;
-  }
-}
-
-@media (min-width: 401px) and (max-width: 700px) {
-  .contact-wrapper {
-    min-height: 750px;
-  }
-}
-
-@media (min-width: 701px) and (max-width: 1000px) {
-  .contact-wrapper {
-    min-height: 650px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1600px) {
-  .contact-wrapper {
-    min-height: 650px;
-  }
-}
-
-.service-wrapper {
-  position: relative;
+  top: 56px;
   min-height: 750px;
   flex: 1;
   transition: .25s ease;
 }
 
 @media (max-width: 400px) {
+  .contact-wrapper {
+    min-height: 830px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 700px) {
+  .contact-wrapper {
+    min-height: 800px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .contact-wrapper {
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .contact-wrapper {
+    min-height: 750px;
+  }
+}
+
+.service-wrapper {
+  position: relative;
+  top: 56px;
+  min-height: 800px;
+  flex: 1;
+  transition: .25s ease;
+}
+
+@media (max-width: 400px) {
   .service-wrapper {
-    min-height: 1340px;
+    min-height: 1390px;
   }
 }
 
 @media (min-width: 401px) and (max-width: 700px) {
   .service-wrapper {
-    min-height: 1380px;
+    min-height: 1430px;
   }
 }
 
-@media (min-width: 701px) and (max-width: 1199px) {
+@media (min-width: 701px) and (max-width: 1000px) {
   .service-wrapper {
-    min-height: 1500px;
+    min-height: 1550px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
   .service-wrapper {
-    min-height: 729px;
+    min-height: 800px;
   }
 }
 
 .navbar-default {
+  position: fixed;
+  width: 100%;
+  top: 0;
   background-color: #ff7d1f;
   border-radius: 0;
   margin: 0;
   padding: 0;
   border: 0px;
-  z-index: 5;
+  z-index: 12;
+  transition: top 0.2s ease-in-out;
 }
 
 .navbar-default .navbar-brand {
@@ -123,7 +130,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  z-index: 10;
+  z-index: 13;
   padding-top: 18px;
   color: white;
   text-align: center;
@@ -172,6 +179,10 @@ body {
 
 .navbar-default #phoneNum {
   font-size: 2.25em;
+}
+
+.nav-up {
+  top: -56px;
 }
 
 .footer {
