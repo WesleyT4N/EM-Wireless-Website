@@ -299,12 +299,38 @@ body {
   margin: 0 0 0 0;
 }
 
+@media (max-width: 500px) {
+  .footer .sitemap h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+  .footer .sitemap h3 {
+    font-size: 1.5em;
+  }
+}
+
 .footer .sitemap a {
   text-decoration: none;
   color: #ff7d1f;
   font-size: 1.5em;
   margin-left: 36px;
   transition: .25s ease;
+}
+
+@media (max-width: 500px) {
+  .footer .sitemap a {
+    font-size: 1em;
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+  .footer .sitemap a {
+    font-size: 1.25em;
+    margin-left: 16px;
+  }
 }
 
 .footer .sitemap a:hover, .footer .sitemap a:active, .footer .sitemap a:focus {
