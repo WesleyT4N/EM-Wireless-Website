@@ -21,7 +21,6 @@ body {
 
 .wrapper {
   position: relative;
-  top: 56px;
   min-height: 500px;
   flex: 1;
   transition: .25s ease;
@@ -29,7 +28,6 @@ body {
 
 .contact-wrapper {
   position: relative;
-  top: 56px;
   min-height: 750px;
   flex: 1;
   transition: .25s ease;
@@ -61,7 +59,6 @@ body {
 
 .service-wrapper {
   position: relative;
-  top: 56px;
   min-height: 800px;
   flex: 1;
   transition: .25s ease;
@@ -486,7 +483,7 @@ body {
 
 .contact-banner {
   position: relative;
-  top: 5%;
+  top: 10%;
   width: 100%;
   z-index: 1000;
   left: 0;
