@@ -31,7 +31,7 @@
       <hr class="footer-divider" />
       <div class="row sitemap">
         <h3 class="sitemap-header"><i class="fa fa-sitemap" aria-hidden="true"></i> Sitemap</h3>
-        <a class="sitemap-link" href="./home">Home</a>
+        <a class="sitemap-link" href="./">Home</a>
         <a class="sitemap-link" href="./services">Our Services</a>
         <a class="sitemap-link" href="./contact">Contact Us</a>
       </div>

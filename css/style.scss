@@ -14,9 +14,14 @@ body,html {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   min-height: 100%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #575859;
   font-family: 'Raleway', sans-serif;
 }
@@ -24,13 +29,19 @@ body {
 .wrapper {
   position: relative;
   min-height: 500px;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: .25s ease;
   transition: .25s ease;
 }
 .contact-wrapper {
   position: relative;
   min-height: 750px;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: .25s ease;
   transition: .25s ease;
   @media (max-width: 400px) {
     min-height: 830px;
@@ -49,7 +60,10 @@ body {
 .service-wrapper {
   position: relative;
   min-height: 800px;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: .25s ease;
   transition: .25s ease;
   @media (max-width: 400px) {
     min-height: 1390px;
@@ -76,6 +90,7 @@ body {
   padding: 0;
   border: 0px;
   z-index: 12;
+  -webkit-transition: top 0.2s ease-in-out;
   transition: top 0.2s ease-in-out;
   .navbar-brand {
     font-family: "Badaboom BB", sans-serif;
@@ -87,6 +102,7 @@ body {
     .small-logo-part {
       font-size: 2em;
     }
+    -webkit-transition: .25s ease;
     transition: .25s ease;
   }
   .navbar-brand:hover, .navbar-brand:focus, .navbar-brand:active {
@@ -105,6 +121,7 @@ body {
     text-decoration: none;
     font-size: 1.5em;
     font-family: 'Fira Sans', sans-serif;
+    -webkit-transition: .25s ease;
     transition: .25s ease;
     border-bottom: 3px solid #ff7d1f;
   }
@@ -132,6 +149,7 @@ body {
     padding: 0;
     border-radius: 0;
     border: 0px;
+    -webkit-transition: .25s ease;
     transition: .25s ease;
     color: white;
   }
@@ -247,6 +265,7 @@ body {
       color: #ff7d1f;
       font-size: 1.5em;
       margin-left: 36px;
+      -webkit-transition: .25s ease;
       transition: .25s ease;
       @media (max-width: 500px) {
         font-size: 1em;
@@ -280,6 +299,7 @@ body {
   background-color: #ff7d1f;
   color: white;
   border-radius: 10px;
+  -webkit-transition: .25s ease;
   transition: .25s ease;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -294,6 +314,7 @@ body {
   border: 2px solid white;
   margin-top: 16px;
   font-size: 1.5em;
+  -webkit-transition: .2s ease;
   transition: .2s ease;
   &:hover, &:focus, &:active {
     color: #ff7d1f;
@@ -304,6 +325,7 @@ body {
 .sent-btn {
   color: #91ff80;
   border: 0px;
+  -webkit-transition: .2s ease;
   transition: .2s ease;
   &:disabled, &:hover {
     color: #91ff80;
@@ -314,6 +336,7 @@ body {
 .error-btn {
   color: red;
   border-color: red;
+  -webkit-transition: .2s ease;
   transition: .2s ease;
   &:hover, &:focus, &:active {
     color: red;
@@ -332,6 +355,7 @@ body {
   margin-top: 20px;
   background-color: #ff7d1f;
   color: white;
+  -webkit-transition: .25s ease;
   transition: .25s ease;
   text-align: center;
 }
@@ -395,7 +419,7 @@ body {
 
 .contact-banner {
   position: relative;
-  top: 10%;
+  top: 80px;
   width: 100%;
   z-index: 1000;
   left: 0;
@@ -411,6 +435,7 @@ body {
     a {
       text-decoration: none;
       color: white;
+      -webkit-transition: .25s ease;
       transition: .25s ease;
     }
     a:hover, a:focus, a:active {
@@ -451,9 +476,11 @@ body {
       text-align: left;
       position: relative;
       margin-top: 8px;
+      -webkit-transition: 0.2s ease;
       transition: 0.2s ease;
       .selected-input {
         margin-top: 24px;
+        -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
       }
       input:focus, textarea:focus {
@@ -464,14 +491,23 @@ body {
         font-size: 1.5em;
         padding-left: 8px;
         top: -20px;
-        transform-origin: 0 0;
-        transform: scale(0.9) translateY(100%);
+        -webkit-transform-origin: 0 0;
+                transform-origin: 0 0;
+        -webkit-transform: scale(0.9) translateY(100%);
+                transform: scale(0.9) translateY(100%);
         color: white;
+        -webkit-transition: -webkit-transform 0.2s ease;
+        transition: -webkit-transform 0.2s ease;
         transition: transform 0.2s ease;
+        transition: transform 0.2s ease, -webkit-transform 0.2s ease;
         &.animate-label {
           color: #d2d2d2;
-          transform: scale(0.75) translateY(0%);
+          -webkit-transform: scale(0.75) translateY(0%);
+                  transform: scale(0.75) translateY(0%);
+          -webkit-transition: -webkit-transform 0.2s ease;
+          transition: -webkit-transform 0.2s ease;
           transition: transform 0.2s ease;
+          transition: transform 0.2s ease, -webkit-transform 0.2s ease;
         }
       }
       .form-input {
@@ -491,8 +527,10 @@ body {
         .message-input {
           resize: none;
           margin-bottom: 4px;
+          -webkit-transition: height 0.2s ease;
           transition: height 0.2s ease;
           &.expanded-message-input {
+            -webkit-transition: height 0.2s ease;
             transition: height 0.2s ease;
           }
         }
@@ -504,7 +542,7 @@ body {
 .banner {
   position: absolute;
   z-index: 100;
-  top: 20%;
+  top: 30%;
   width: 100%;
   left: 0;
   text-align: center;
@@ -524,6 +562,7 @@ body {
     border-radius: 10px;
     padding: 8px 16px 8px 16px;
     font-size: 2em;
+    -webkit-transition: .25s ease;
     transition: .25s ease;
   }
   .header-link:hover, .header-link:focus, .header-link:active {
@@ -554,7 +593,8 @@ body {
         min-width: 100%;
         max-width: none;
         height: 100%;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
         overflow: hidden;
       }
     }
@@ -566,7 +606,7 @@ body {
 }
 
 .service-banner {
-  top: 2.5%;
+  top: 75px;
   width: 100%;
   left: 0;
   text-align: center;
@@ -583,12 +623,19 @@ body {
   .service-row {
     text-align: center;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     .service-col {
       height: 572px;
       @media (max-width: 400px) {
         height: 550px;
       }
-      display: inline-block;
       @media (min-width: 600px) {
         width: 400px;
         margin-left: 12px;
@@ -597,12 +644,10 @@ body {
       @media (max-width: 599px) {
         width: 95%;
       }
-      float: none;
       border: 1px solid white;
       border-radius: 10px;
       text-align: center;
       margin-top: 48px;
-
       .column-header-logo {
         background-color: #ff7d1f;
         margin-left: auto;

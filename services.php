@@ -1,4 +1,8 @@
-<?php include("./includes/header.php");
+<?php
+$title = "Our Services";
+$description = "EM Wireless offers iPhone repairs, Samsung Galaxy repairs, and their corresponding accessories and parts.
+We also sell refurbished iPhones and Galaxies all for affordable prices.";
+include("./includes/header.php");
 error_reporting(-1);
 ini_set('display_errors', 'On');
 set_error_handler("var_dump");
@@ -15,7 +19,7 @@ $nameErr = $subjErr = $msgErr = "";
             <div class="column-header-logo">
               <i class="fa fa-usd" aria-hidden="true"></i>
             </div>
-            <h2 class="subheader service-subheader">Smartphone and Accessory Sales</h2>
+            <h2 class="subheader service-subheader">Cell Phone and Accessory Sales</h2>
             <div class="row">
               <div class="col-xs-3 icon-col">
                 <img class="section-icon" id="iphone" src="./img/iphone.svg" alt="iphone"/>
@@ -43,7 +47,7 @@ $nameErr = $subjErr = $msgErr = "";
                 </p>
               </div>
             </div>
-            <hr />
+            <hr>
             <div class="row bottom-row">
               <div class="col-xs-3 icon-col">
                 <img class="section-icon center-block" id="dots" src="./img/dots.svg" alt="dots"/>
@@ -51,7 +55,7 @@ $nameErr = $subjErr = $msgErr = "";
               <div class="col-xs-9">
                 <h2 class="section-subheader">Accessories</h2>
                 <p class="description">
-                  Phone cases, chargers and more!
+                  Cell Phone cases, chargers and more!
                 </p>
               </div>
             </div>
@@ -60,13 +64,13 @@ $nameErr = $subjErr = $msgErr = "";
             <div class="column-header-logo">
               <i id="wrench" class="fa fa-wrench" aria-hidden="true"></i>
             </div>
-            <h2 class="subheader service-subheader">Smartphone Repairs and Repair Supplies</h2>
+            <h2 class="subheader service-subheader">Cell Phone Repairs and Repair Supplies</h2>
             <div class="row">
               <div class="col-xs-3">
                 <img class="section-icon center-block" id="screwdriver" src="./img/screwdriver.svg" alt="screwdriver"/>
               </div>
               <div class="col-xs-9">
-                <h2 class="section-subheader">Repairs</h2>
+                <h2 class="section-subheader">iPhone Repair and <br /> Galaxy Repair</h2>
                 <p class="description">
                   Troubleshooting <br /> Screen Replacement <br /> Battery Replacement <br /> Component Replacement
                 </p>

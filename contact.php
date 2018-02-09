@@ -1,4 +1,7 @@
-<?php include("./includes/header.php");
+<?php
+$title = "Contact Us";
+$description = "How to contact the store to inquire about repairs and available phones.";
+include("./includes/header.php");
 error_reporting(-1);
 ini_set('display_errors', 'On');
 set_error_handler("var_dump");

@@ -1,16 +1,13 @@
 <?php
-  $title = "Pawtucket Rhode Island's Best Cellphone Store for iPhone Repairs and Samsung Galaxy Repairs ";
-  $description = "We are a cell phone store in Pawtucket, Rhode Island offering affordable repairs, accessories, and more!
-  Come by to get a smartphone fixed, or to buy a new one!";
+  $title = "Page Not Found";
   include("./includes/header.php");
 ?>
 <div class="wrapper">
 <div class="container-fluid image-slider-container">
     <div class="banner-container">
       <div class="center-block banner">
-        <h1 class="header">Stop by EM Wireless</h1>
-        <h3 class="subheader">Selling and fixing premium smartphones for non-premium prices</h3>
-        <a class="header-link" href="./services">Our Services</a>
+        <h1 class="header">Sorry, Page Not Found</h1> <br />
+        <a class="header-link" href="./">Go Back to Home</a>
       </div>
     </div>
     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
