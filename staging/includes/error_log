@@ -1,0 +1,2 @@
+[15-Jun-2017 23:55:32 UTC] PHP Parse error:  syntax error, unexpected ''" <em-wireless.com>'' (T_CONSTANT_ENCAPSED_STRING) in /home/emwireless/public_html/staging/includes/contactFormValidate.php on line 29
+[15-Jun-2017 23:55:37 UTC] PHP Parse error:  syntax error, unexpected ''" <em-wireless.com>'' (T_CONSTANT_ENCAPSED_STRING) in /home/emwireless/public_html/staging/includes/contactFormValidate.php on line 29

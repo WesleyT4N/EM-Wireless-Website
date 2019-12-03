@@ -27,7 +27,11 @@ $nameErr = $subjErr = $msgErr = "";
               <div class="col-xs-9">
                 <h2 class="section-subheader">Apple</h2>
                 <p class="description">
-                  iPhone Series
+                  iPhone 5, 5s, 5c
+                  <br />
+                  iPhone 6, 6 Plus, 6s, 6s Plus
+                  <br />
+                  iPhone 7, 7 Plus
                 </p>
               </div>
             </div>
@@ -80,17 +84,12 @@ $nameErr = $subjErr = $msgErr = "";
               <div class="col-xs-9">
                 <h2 class="section-subheader">DIY Supplies</h2>
                 <p class="description">
-                  Phone Screens <br /> Logic Boards <br /> Batteries <br /> Camera Modules <br /> Rear Cases
+                  Phone Screens <br /> Logic Boards <br /> Batteries <br /> Camera Modules <br /> Rear Cases <br /> etc.
                 </p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container-fluid row service-row">
-          <h3 class="description">Authorized dealer for Verizon Prepaid, Simple Mobile, H2O, Ultra Mobile, Net10, Tracfone and more!</h3>
-        </div>
-        <div class="container-fluid row service-row">
-          <h3 class="description">Now offering device financing for as low as $30 down payment & no credit needed!</h3>
+
         </div>
       </div>
     </div>
@@ -100,20 +99,17 @@ $nameErr = $subjErr = $msgErr = "";
         <div class="item active">
           <img src="./img/camera_img/slider2.jpg" alt="Slider Image 2">
         </div>
+
         <div class="item">
           <img src="./img/camera_img/slider4.jpg" alt="Slider Image 4">
         </div>
+
         <div class="item">
           <img src="./img/camera_img/slider6.jpg" alt="Slider Image 6">
         </div>
+
         <div class="item">
           <img src="./img/camera_img/slider12.jpg" alt="Slider Image 12">
-        </div>
-        <div class="item">
-          <img src="./img/camera_img/slider13.jpg" alt="Slider Image 12">
-        </div>
-        <div class="item">
-          <img src="./img/camera_img/slider14.jpg" alt="Slider Image 12">
         </div>
       </div>
     </div>

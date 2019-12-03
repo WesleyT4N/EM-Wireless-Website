@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="./css/style.min.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/style.css"/>
   <script src="./js/main.min.js"></script>
   <script src="https://use.fontawesome.com/104d9a8f78.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Raleway" rel="stylesheet">
@@ -50,16 +50,10 @@
       </ul>
       <ul class="nav navbar-nav navbar-right hidden-xs">
         <li class="nav-item hidden-sm">
-          <a href="https://goo.gl/maps/EJBrNBojqaFQ7kph7" class="address nav-link">950 Mineral Spring Ave<br />North Providence, RI</a>
+          <a href="https://goo.gl/maps/p8WSP7UfXvu" class="address nav-link">570 Smithfield Avenue<br />Pawtucket, Rhode Island</a>
         </li>
-        <li class="nav-item hidden-md hidden-sm phone-num phone-num-first">
-          <a href="tel:4013596360" class="nav-link">(401) 359-6360</a>
-        </li>
-        <li class="nav-item hidden-sm">
-          <a href="https://goo.gl/maps/p8WSP7UfXvu" class="address nav-link">570 Smithfield Ave.<br />Pawtucket, RI</a>
-        </li>
-        <li class="nav-item hidden-md hidden-sm phone-num">
-          <a href="tel:4014260226" class="nav-link">(401) 426-0226</a>
+        <li class="nav-item hidden-md hidden-sm">
+          <a id="phoneNum" href="tel:4014260226" class="nav-link">(401) 426-0226</a>
         </li>
       </ul>
     </div>
