@@ -66,10 +66,10 @@ body {
   -webkit-transition: .25s ease;
   transition: .25s ease;
   @media (max-width: 1000px) {
-    min-height: 1600px;
+    min-height: 1650px;
   }
-  @media (min-width: 1200px) and (max-width: 1600px) {
-    min-height: 900px;
+  @media (min-width: 1000px) and (max-width: 1600px) {
+    min-height: 950px;
   }
 }
 
