@@ -50,12 +50,6 @@
       </ul>
       <ul class="nav navbar-nav navbar-right hidden-xs">
         <li class="nav-item hidden-sm">
-          <a href="https://goo.gl/maps/EJBrNBojqaFQ7kph7" class="address nav-link">950 Mineral Spring Ave<br />North Providence, RI</a>
-        </li>
-        <li class="nav-item hidden-md hidden-sm phone-num phone-num-first">
-          <a href="tel:4013596360" class="nav-link">(401) 359-6360</a>
-        </li>
-        <li class="nav-item hidden-sm">
           <a href="https://goo.gl/maps/p8WSP7UfXvu" class="address nav-link">570 Smithfield Ave.<br />Pawtucket, RI</a>
         </li>
         <li class="nav-item hidden-md hidden-sm phone-num">
