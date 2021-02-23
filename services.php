@@ -90,7 +90,7 @@ $nameErr = $subjErr = $msgErr = "";
           <h3 class="description">Authorized dealer for Verizon Prepaid, Simple Mobile, H2O, Ultra Mobile, Net10, Tracfone and more! <br> Plans starting at $15/month. </h3>
         </div>
         <div class="container-fluid row service-row">
-          <h3 class="description">Now offering device financing for as low as $30 down payment & no credit needed!</h3>
+          <h3 class="description">Lease-To-Own From Progressive Leasing Available</h3>
         </div>
       </div>
     </div>
@@ -111,9 +111,6 @@ $nameErr = $subjErr = $msgErr = "";
         </div>
         <div class="item">
           <img src="./img/camera_img/slider13.jpg" alt="Slider Image 13">
-        </div>
-        <div class="item">
-          <img src="./img/camera_img/slider14.jpg" alt="Slider Image 14">
         </div>
       </div>
     </div>
