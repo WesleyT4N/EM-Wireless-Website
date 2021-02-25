@@ -26,6 +26,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+p {
+  max-width: 800px;
+}
+
 .wrapper {
   position: relative;
   min-height: 500px;
@@ -52,7 +56,7 @@ body {
   @media (min-width: 701px) and (max-width: 1000px) {
     min-height: 700px;
   }
-  @media (min-width: 1200px) and (max-width: 1600px) {
+  @media (min-width: 1200px) {
     min-height: 750px;
   }
 }
@@ -68,8 +72,8 @@ body {
   @media (max-width: 1000px) {
     min-height: 1650px;
   }
-  @media (min-width: 1000px) and (max-width: 1600px) {
-    min-height: 950px;
+  @media (min-width: 1000px) {
+    min-height: 980px;
   }
 }
 

@@ -90,7 +90,15 @@ $nameErr = $subjErr = $msgErr = "";
           <h3 class="description">Authorized dealer for Verizon Prepaid, Simple Mobile, H2O, Ultra Mobile, Net10, Tracfone and more! <br> Plans starting at $15/month. </h3>
         </div>
         <div class="container-fluid row service-row">
-          <h3 class="description">Lease-To-Own From Progressive Leasing Available</h3>
+          <h3 class="description">Lease-To-Own From Progressive Leasing Available*</h3>
+          <br>
+        </div>
+        <div class="container-fluid row service-row">
+        <p>
+        <em>
+        *The advertised service is lease-to-own or a rental- or lease- purchase agreement provided by Prog Leasing, LLC, or its affiliates. Acquiring ownership by leasing costs more than the retailer’s cash price. Leasing available on select items at participating locations only. Not available in MN, NJ, VT, WI, WY.
+        </em>
+        </p>
         </div>
       </div>
     </div>
